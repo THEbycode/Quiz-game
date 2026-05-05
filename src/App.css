@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+    font-family: "Rubik", sans-serif;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.chose{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100vw;
+    height: 1000vh;
+}
+
+.chose button{
+    width: 100vw;
+    height: 50vh;
+    font-size: 50px;
+    transition: all 0.3s;
+    font-family: "Rubik", sans-serif;
+    outline: none;
+    border: 0px solid beige;
+}
+
+.chose button:hover{
+    font-size: 85px;
+}
+
+
+#red{
+    background-color: rgb(197, 32, 32);
+}
+
+#blue{
+    background-color: rgb(44, 44, 158);
+}
+
+.Info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-size: 35px;
+    background-color: rgb(23, 183, 95);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.answer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Title{
+    margin-top: -5%;
+    font-size: 30px;
+}
+
+.Answer{
+    font-size: 50px;
+    width: 75%;
+    text-align: center;
+}
+
+.answer button{
+    margin-top: 1%;
+    font-size: 25px;
+
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    outline: none;
+}
+
+.end_game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+textarea{
+    color: white;
+}
